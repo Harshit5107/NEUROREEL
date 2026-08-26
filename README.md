@@ -6,6 +6,10 @@
 
 ---
 
+## Live Link
+
+https://neuroreel-fawn.vercel.app/
+
 ## 1. Overview
 
 **NEUROREEL** is an AI-powered short-form video creation platform that transforms a simple idea into a complete, ready-to-publish vertical Reel.
