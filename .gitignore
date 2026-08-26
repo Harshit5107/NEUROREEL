@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build Output
+dist/
+
+# Environment Variables & Secret API Keys
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
