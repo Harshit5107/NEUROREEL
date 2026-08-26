@@ -1,64 +1,29 @@
-# NEUROREEL --- Ultra-Premium 3D AI Reels Platform
+# NEUROREEL — Ultra-Premium 3D AI Reels Platform
 
 > **"Think it. Generate it. Reel it."**
 >
 > Turn ideas into scroll-stopping short-form videos with AI.
 
-------------------------------------------------------------------------
+---
 
-## 📌 Table of Contents
+## 1. Overview
 
--   [1. What is NEUROREEL?](#1-what-is-neuroreel)
--   [2. The Problem](#2-the-problem)
--   [3. Our Solution](#3-our-solution)
--   [4. How NEUROREEL Works](#4-how-neuroreel-works)
--   [5. End-to-End AI Pipeline](#5-end-to-end-ai-pipeline)
--   [6. Key Features](#6-key-features)
--   [7. AI Viral Score](#7-ai-viral-score)
--   [8. Target Users](#8-target-users)
--   [9. Why Users Will Pay](#9-why-users-will-pay)
--   [10. Revenue Generation --- Core Business
-    Model](#10-revenue-generation--core-business-model)
--   [11. Pricing Strategy](#11-pricing-strategy)
--   [12. Unit Economics](#12-unit-economics)
--   [13. Additional Revenue Streams](#13-additional-revenue-streams)
--   [14. Competitive Advantage](#14-competitive-advantage)
--   [15. Product Architecture](#15-product-architecture)
--   [16. Technology Stack](#16-technology-stack)
--   [17. Frontend Experience](#17-frontend-experience)
--   [18. Creator Studio](#18-creator-studio)
--   [19. Hackathon Demo Mode](#19-hackathon-demo-mode)
--   [20. Project Structure](#20-project-structure)
--   [21. Local Development](#21-local-development)
--   [22. Production Deployment](#22-production-deployment)
--   [23. Future Roadmap](#23-future-roadmap)
--   [24. Business Growth Strategy](#24-business-growth-strategy)
--   [25. Privacy and Responsible AI](#25-privacy-and-responsible-ai)
--   [26. Why NEUROREEL Can Scale](#26-why-neuroreel-can-scale)
--   [27. One-Minute Pitch](#27-one-minute-pitch)
+**NEUROREEL** is an AI-powered short-form video creation platform that transforms a simple idea into a complete, ready-to-publish vertical Reel.
 
-------------------------------------------------------------------------
+Instead of requiring creators to use separate tools for:
 
-# 1. What is NEUROREEL?
+- Script writing
+- Visual generation
+- Voice generation
+- Video editing
+- Captions
+- Content analysis
 
-**NEUROREEL** is an AI-powered short-form video creation platform
-designed to transform a simple idea into a complete, ready-to-publish
-social media Reel.
+NEUROREEL brings the complete workflow into one platform.
 
-Instead of requiring a creator to separately use:
+### Core Workflow
 
--   a writing tool for scripts,
--   a stock-media platform for visuals,
--   a voice-generation tool,
--   a video editor,
--   a caption generator,
--   and an analytics tool,
-
-NEUROREEL brings the complete workflow into one intelligent platform.
-
-The core experience is:
-
-``` text
+```text
 IDEA
   ↓
 UNDERSTAND
@@ -80,81 +45,57 @@ AI ANALYSIS
 READY-TO-POST REEL
 ```
 
-The product is built around one central idea:
+---
 
-> **Creators should spend their time deciding what to say, not manually
-> assembling every frame.**
+# 2. Problem Statement
 
-------------------------------------------------------------------------
+Creating a high-quality short-form video normally requires multiple tools and significant manual effort.
 
-# 2. The Problem
+A creator may have to:
 
-Short-form video has become one of the most important content formats
-for:
-
--   creators,
--   startups,
--   brands,
--   educators,
--   students,
--   agencies,
--   influencers,
--   coaches,
--   ecommerce businesses,
--   and personal brands.
-
-However, creating a high-quality Reel still requires multiple steps.
-
-A typical creator may need to:
-
-1.  Find an idea.
-2.  Research the topic.
-3.  Write a hook.
-4.  Write a script.
-5.  Search for visuals.
-6.  Record or generate a voiceover.
-7.  Edit the video.
-8.  Add captions.
-9.  Add music.
+1. Find an idea.
+2. Research the topic.
+3. Write a hook.
+4. Write a script.
+5. Find or generate visuals.
+6. Record or generate a voiceover.
+7. Edit the video.
+8. Add captions.
+9. Add music and sound effects.
 10. Synchronize scenes.
-11. Resize the video.
-12. Review the final result.
-13. Publish it.
-14. Analyze performance.
+11. Export the video.
+12. Analyze the result.
 
 This creates three major problems:
 
-### Problem 1 --- Time
+### 2.1 Time
 
-Creating one polished short video can take a significant amount of
-manual work.
+Creating one polished Reel can take hours.
 
-### Problem 2 --- Technical Skill
+### 2.2 Technical Complexity
 
-Not every creator knows:
+Creators may not have skills in:
 
--   video editing,
--   motion graphics,
--   audio mixing,
--   caption design,
--   storytelling,
--   or content optimization.
+- Video editing
+- Motion graphics
+- Audio editing
+- Storytelling
+- Caption design
+- Content optimization
 
-### Problem 3 --- Fragmented Tools
+### 2.3 Fragmented Tools
 
-Creators often switch between multiple products to complete one Reel.
+Creators often need several different platforms to produce one video.
 
-NEUROREEL addresses all three.
+NEUROREEL solves this by providing one unified AI-powered workflow.
 
-------------------------------------------------------------------------
+---
 
 # 3. Our Solution
 
-NEUROREEL provides a unified AI-powered content pipeline.
+NEUROREEL allows a user to enter:
 
-The user provides:
-
-``` text
+```text
 Topic
 Target Audience
 Duration
@@ -162,13 +103,11 @@ Content Style
 Platform
 ```
 
-NEUROREEL then generates the content pipeline automatically.
+Example:
 
-Example input:
-
-``` text
+```text
 Topic:
-"5 AI skills every college student should learn"
+5 AI Skills Every College Student Should Learn
 
 Audience:
 College Students
@@ -183,73 +122,67 @@ Platform:
 Instagram Reels
 ```
 
-The platform can produce:
+NEUROREEL then automatically creates:
 
-``` text
+```text
 Hook
-↓
+ ↓
 Script
-↓
+ ↓
 Scene Plan
-↓
+ ↓
 Visual Direction
-↓
-AI Voice
-↓
+ ↓
+Voiceover
+ ↓
 Captions
-↓
-Music/SFX
-↓
+ ↓
+Music / SFX
+ ↓
 Final 9:16 Reel
-↓
+ ↓
 AI Performance Analysis
 ```
 
-The goal is not simply:
-
-> "Generate a video."
+The goal is not simply to generate a video.
 
 The goal is:
 
-> **"Generate a video designed around a specific audience, platform,
-> duration and content objective."**
+> **Generate a video designed around a specific audience, platform, duration and content objective.**
 
-------------------------------------------------------------------------
+---
 
-# 4. How NEUROREEL Works
+# 4. Complete AI Pipeline
 
-The platform follows a six-stage intelligent creation workflow.
+NEUROREEL follows a six-stage intelligent creation process.
 
-## STEP 01 --- UNDERSTAND
+## STEP 01 — UNDERSTAND
 
-The AI first understands the user's request.
+The AI understands the user's request.
 
-Inputs include:
+It analyzes:
 
--   topic,
--   audience,
--   platform,
--   duration,
--   style,
--   language,
--   content objective.
-
-The system converts the natural-language request into structured content
-requirements.
+- Topic
+- Target audience
+- Platform
+- Duration
+- Content style
+- Language
+- Content objective
 
 Example:
 
-``` text
-Input:
+```text
+User Input:
 "Make a funny 30-second Reel explaining AI to first-year students."
 
-Structured request:
+AI Understanding:
 
 Topic:
 Artificial Intelligence
 
 Audience:
-First-year students
+First-Year Students
 
 Duration:
 30 seconds
@@ -264,25 +197,24 @@ Objective:
 Education + Engagement
 ```
 
-------------------------------------------------------------------------
+---
 
-## STEP 02 --- SCRIPT
+## STEP 02 — SCRIPT
 
 The AI generates a short-form optimized script.
 
 The script focuses on:
 
--   first-second hook,
--   clarity,
--   pacing,
--   storytelling,
--   curiosity,
--   retention,
--   CTA.
+- Strong opening hook
+- Curiosity
+- Storytelling
+- Clarity
+- Pacing
+- Call-to-action
 
 Example:
 
-``` text
+```text
 HOOK:
 "You are already using AI every day — even if you don't realize it."
 
@@ -294,169 +226,216 @@ CTA:
 "Want to learn the AI behind it?"
 ```
 
-The system can generate multiple variations so the creator can select
-the preferred direction.
+The system can generate multiple script variations.
 
-------------------------------------------------------------------------
+---
 
-## STEP 03 --- VISUALIZE
+## STEP 03 — VISUALIZE
 
-The script is divided into scene beats.
+The script is divided into individual scenes.
 
 Example:
 
-``` text
+```text
 Scene 1
-0–3 sec
+0–3 seconds
 Hook
 
 Scene 2
-3–8 sec
+3–8 seconds
 Problem
 
 Scene 3
-8–16 sec
+8–16 seconds
 Example 1
 
 Scene 4
-16–23 sec
+16–23 seconds
 Example 2
 
 Scene 5
-23–27 sec
-Key takeaway
+23–27 seconds
+Key Takeaway
 
 Scene 6
-27–30 sec
+27–30 seconds
 CTA
 ```
 
-Each scene can receive:
+Each scene can contain:
 
--   visual instructions,
--   transition type,
--   camera movement,
--   text overlays,
--   duration,
--   visual assets,
--   sound cues.
+- Visual direction
+- Narration
+- Caption
+- Transition
+- Camera movement
+- Duration
+- Asset requirements
 
-------------------------------------------------------------------------
+---
 
-## STEP 04 --- VOICE
+## STEP 04 — VOICE
 
-The generated script is converted into a natural voiceover.
+The generated script is converted into an AI voiceover.
 
-The system can support configurable:
+The system can support:
 
--   voice style,
--   speaking speed,
--   tone,
--   language,
--   emotion,
--   pauses.
+- Different voices
+- Speaking speed
+- Tone
+- Emotion
+- Language
+- Pauses
 
-The audio is synchronized with the scene timeline.
+The generated voice is synchronized with the scene timeline.
 
-------------------------------------------------------------------------
+---
 
-## STEP 05 --- EDIT
+## STEP 05 — EDIT
 
-The editing engine combines the generated assets.
+The editing layer combines:
 
-It creates:
+- Visuals
+- Voiceover
+- Captions
+- Background music
+- Sound effects
+- Transitions
+- Timing
 
--   scene sequence,
--   voiceover,
--   background audio,
--   sound effects,
--   captions,
--   transitions,
--   visual effects,
--   timing.
+The final composition is optimized for vertical short-form video.
 
-The final composition uses the vertical 9:16 format.
+---
 
-------------------------------------------------------------------------
+## STEP 06 — PUBLISH
 
-## STEP 06 --- PUBLISH
+Before export, NEUROREEL analyzes the generated content.
 
-Before export, NEUROREEL analyzes the Reel.
+It evaluates factors such as:
 
-The platform can calculate an AI-assisted score based on factors such
-as:
+- Hook strength
+- Audience relevance
+- Pacing
+- Content clarity
+- Scene variation
+- Caption readability
+- CTA quality
 
--   hook strength,
--   audience relevance,
--   pacing,
--   clarity,
--   caption readability,
--   CTA quality,
--   scene variation,
--   estimated retention.
+The result is displayed as:
 
-The result is presented as:
-
-``` text
+```text
 AI VIRAL SCORE
 
 92 / 100
 ```
 
-The score is intended as a decision-support signal, not a guarantee of
-actual virality.
+The score is an AI-assisted quality indicator and is **not a guarantee of actual virality**.
 
-------------------------------------------------------------------------
+---
 
-# 5. End-to-End AI Pipeline
+# 5. Innovation
 
-The complete architecture can be represented as:
+NEUROREEL is not simply an AI video generator.
 
-``` text
-                    ┌─────────────────────┐
-                    │       USER          │
-                    │  Topic + Settings   │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │   UNDERSTANDING     │
-                    │ Context + Audience  │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │   SCRIPT ENGINE     │
-                    │ Hook + Story + CTA  │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │   SCENE ENGINE      │
-                    │ Scene + Timing      │
-                    └──────────┬──────────┘
-                               ↓
-             ┌─────────────────┼─────────────────┐
-             ↓                 ↓                 ↓
-      ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
-      │   VISUAL    │   │    VOICE    │   │   CAPTION   │
-      │   ENGINE    │   │   ENGINE    │   │   ENGINE    │
-      └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
-             └─────────────────┼─────────────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │   VIDEO COMPOSITOR  │
-                    │ Timeline + Effects  │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │   AI ANALYZER       │
-                    │ Hook + Retention    │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │   FINAL 9:16 REEL   │
-                    └─────────────────────┘
+Our main innovation is the combination of:
+
+```text
+CONTENT GENERATION
+        +
+VIDEO AUTOMATION
+        +
+AUDIENCE UNDERSTANDING
+        +
+AI PERFORMANCE ANALYSIS
 ```
 
-------------------------------------------------------------------------
+## 5.1 Full Workflow
+
+Instead of using multiple applications:
+
+```text
+Script Tool
+    +
+Image Tool
+    +
+Voice Tool
+    +
+Video Editor
+    +
+Caption Tool
+    +
+Analytics Tool
+```
+
+NEUROREEL combines them into one workflow.
+
+---
+
+## 5.2 Audience-Aware Content
+
+The generated content changes according to the selected audience.
+
+For example:
+
+```text
+Topic:
+Artificial Intelligence
+```
+
+For:
+
+```text
+College Students
+```
+
+The language can be simpler and educational.
+
+For:
+
+```text
+Developers
+```
+
+The content can become more technical.
+
+For:
+
+```text
+Entrepreneurs
+```
+
+The content can focus on business value.
+
+---
+
+## 5.3 Platform-Aware Content
+
+The platform can generate content according to the selected destination:
+
+- Instagram Reels
+- YouTube Shorts
+- TikTok
+- LinkedIn
+
+---
+
+## 5.4 AI Viral Score
+
+NEUROREEL evaluates the content before publishing.
+
+Example:
+
+```text
+Hook Strength       94
+Audience Match      91
+Pacing              89
+Clarity             96
+CTA                 90
+
+Overall Score       92 / 100
+```
+
+---
 
 # 6. Key Features
 
@@ -464,22 +443,22 @@ The complete architecture can be represented as:
 
 Generates:
 
--   hooks,
--   scripts,
--   story structures,
--   CTAs,
--   captions,
--   content variations.
+- Hooks
+- Scripts
+- Story structures
+- CTAs
+- Caption ideas
+- Content variations
 
-------------------------------------------------------------------------
+---
 
 ## 6.2 AI Scene Builder
 
-Automatically converts a script into visual scenes.
+Converts the script into a structured scene plan.
 
-Each scene contains:
+Each scene can contain:
 
-``` text
+```text
 Scene ID
 Start Time
 End Time
@@ -490,793 +469,275 @@ Transition
 Camera Motion
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 6.3 AI Voice Studio
 
-Generates voiceovers and synchronizes them with the timeline.
+Generates natural AI voiceovers and synchronizes them with the timeline.
 
-------------------------------------------------------------------------
+---
 
 ## 6.4 Smart Captions
 
-Captions can be:
+Automatically creates:
 
--   synchronized,
--   animated,
--   highlighted,
--   styled,
--   positioned for vertical video.
+- Synchronized captions
+- Animated captions
+- Highlighted keywords
+- Vertical-video friendly typography
 
-------------------------------------------------------------------------
+---
 
 ## 6.5 AI Visual Engine
 
-The visual layer can combine:
+The visual layer can use:
 
--   generated images,
--   approved stock assets,
--   motion graphics,
--   branded templates,
--   3D scenes,
--   creator uploads.
+- AI-generated images
+- Stock assets
+- Creator uploads
+- Motion graphics
+- 3D graphics
+- Branded assets
 
-------------------------------------------------------------------------
+---
 
-## 6.6 Multi-Platform Formatting
+## 6.6 Multi-Platform Export
 
-The core output is designed for vertical short-form platforms.
+The core output is a vertical 9:16 Reel suitable for:
 
-Potential destinations:
+- Instagram Reels
+- YouTube Shorts
+- TikTok
+- LinkedIn
 
--   Instagram Reels,
--   YouTube Shorts,
--   TikTok,
--   LinkedIn short-form video.
+---
 
-------------------------------------------------------------------------
+# 7. 3D Website Experience
 
-## 6.7 AI Performance Analysis
+The NEUROREEL website is designed as a futuristic AI environment rather than a normal SaaS landing page.
 
-The platform provides pre-publish signals such as:
+## Visual Identity
 
-``` text
+Main colors:
+
+```text
+Background: Near Black
+Primary: Electric Blue
+Secondary: Cyan
+Text: White
+Accent: Subtle Violet
+```
+
+The uploaded neural-network head image is used as the main visual identity.
+
+The website creates the feeling that the user is entering an AI brain.
+
+---
+
+## 7.1 3D Neural Head
+
+Component:
+
+```text
+src/components/NeuralHead3D.tsx
+```
+
+Features:
+
+- Floating neural head
+- Holographic rings
+- Particle effects
+- Neural circuits
+- Blue glow
+- Mouse parallax
+- 3D perspective
+- Floating animation
+
+---
+
+## 7.2 3D Particle System
+
+The website contains:
+
+- Glowing particles
+- Neural nodes
+- Circuit connections
+- Animated light pulses
+- Depth layers
+
+Particles react subtly to user movement.
+
+---
+
+## 7.3 Interactive Parallax
+
+On desktop:
+
+- Background moves slowly.
+- Neural circuits move at a different depth.
+- Brain image reacts more strongly.
+- Floating cards respond to mouse movement.
+
+On mobile, heavy effects are reduced for performance.
+
+---
+
+# 8. AI Reel Generator
+
+Component:
+
+```text
+src/components/AIReelGenerator.tsx
+```
+
+Inputs:
+
+```text
+Topic
+Target Audience
+Duration
+Content Style
+Platform
+```
+
+Example:
+
+```text
+Topic:
+"5 AI skills every student should learn"
+
+Audience:
+College Students
+
+Duration:
+30 seconds
+
+Style:
+Viral Educational
+
+Platform:
+Instagram
+```
+
+Button:
+
+```text
+GENERATE REEL
+```
+
+---
+
+# 9. AI Generation Animation
+
+Component:
+
+```text
+src/components/GenerationPipelineModal.tsx
+```
+
+Instead of showing a normal loading spinner, NEUROREEL shows the AI pipeline.
+
+```text
+Analyzing idea...
+        ↓
+Understanding audience...
+        ↓
+Writing hook...
+        ↓
+Generating script...
+        ↓
+Designing scenes...
+        ↓
+Generating voice...
+        ↓
+Adding captions...
+        ↓
+Rendering Reel...
+```
+
+The interface displays:
+
+```text
+NEURAL ENGINE ACTIVATED
+
+73%
+```
+
+This creates a strong product experience during generation.
+
+---
+
+# 10. Reel Preview
+
+Component:
+
+```text
+src/components/ReelPreviewPhone.tsx
+```
+
+The generated Reel appears inside a futuristic 3D smartphone.
+
+Features:
+
+- 9:16 video
+- Play / Pause
+- Audio control
+- Scene controls
+- Captions
+- Timeline
+- AI Score
+
+The phone itself floats in the 3D environment.
+
+---
+
+# 11. AI Analytics
+
+Component:
+
+```text
+src/components/AIAnalytics.tsx
+```
+
+Analytics can display:
+
+```text
 Hook Score
 Audience Match
 Pacing
 Clarity
 CTA Strength
-Caption Readability
+Caption Quality
 Estimated Retention
 ```
 
-------------------------------------------------------------------------
-
-# 7. AI Viral Score
-
-NEUROREEL's AI Viral Score is a major product differentiator.
-
-The purpose is to answer:
-
-> **"Before I publish this Reel, how strong is the content structure?"**
-
-The score can be calculated from weighted signals.
-
 Example:
 
-``` text
-Hook Strength           25%
-Audience Relevance      20%
-Pacing                   15%
-Content Clarity          15%
-Scene Variation          10%
-Caption Quality           5%
-CTA Strength             10%
-                        ----
-                         100%
-```
+```text
+AI PERFORMANCE
 
-Example output:
+Hook              94%
+Audience Match     91%
+Clarity            96%
+CTA                89%
 
-``` text
-AI VIRAL SCORE
+OVERALL
 92 / 100
-
-Hook              94
-Audience Match     91
-Pacing             89
-Clarity            96
-CTA                90
 ```
 
-Important:
+---
 
-The score should be presented as an **AI prediction/quality indicator**,
-not as a promise that a Reel will go viral.
+# 12. Creator Studio
 
-------------------------------------------------------------------------
+Component:
 
-# 8. Target Users
-
-## Primary Users
-
-### Content Creators
-
-Creators who need to publish frequently.
-
-### Students
-
-Students who want to create educational or personal-brand content.
-
-### Small Businesses
-
-Businesses that cannot afford a dedicated video team.
-
-### Startups
-
-Startups that need continuous marketing content.
-
-### Influencers
-
-Influencers who want faster content production.
-
-### Marketing Agencies
-
-Agencies managing multiple clients.
-
-------------------------------------------------------------------------
-
-# 9. Why Users Will Pay
-
-The strongest reason users pay is not "AI."
-
-They pay because NEUROREEL saves:
-
--   time,
--   editing effort,
--   production cost,
--   creative effort,
--   tool-switching,
--   content planning effort.
-
-The value proposition is:
-
-``` text
-WITHOUT NEUROREEL
-
-Idea
- ↓
-Research
- ↓
-Script Tool
- ↓
-Stock Website
- ↓
-Voice Tool
- ↓
-Video Editor
- ↓
-Caption Tool
- ↓
-Analytics
- ↓
-Publish
-
-WITH NEUROREEL
-
-IDEA
- ↓
-NEUROREEL
- ↓
-READY-TO-POST REEL
+```text
+src/components/StudioDashboard.tsx
 ```
 
-The product therefore sells **time and productivity**, not merely AI
-generations.
+The Creator Studio contains:
 
-------------------------------------------------------------------------
-
-# 10. Revenue Generation --- Core Business Model
-
-## 💰 The Main Revenue Model: Subscription + Usage-Based Credits
-
-NEUROREEL follows a **freemium SaaS model**.
-
-The most important revenue source is:
-
-> **Creators pay a monthly subscription to receive a certain number of
-> AI generation credits, while higher-usage customers can purchase
-> additional credits.**
-
-This model works because AI video generation has variable infrastructure
-costs.
-
-Every generated:
-
--   script,
--   image,
--   voiceover,
--   video,
--   rendering job,
--   storage operation,
-
-can create a cost for the platform.
-
-Instead of offering unlimited expensive generation, NEUROREEL separates:
-
-**Platform subscription revenue**
-
-from
-
-**AI generation consumption.**
-
-------------------------------------------------------------------------
-
-# 11. Pricing Strategy
-
-A possible initial pricing structure:
-
-## FREE --- ₹0/month
-
-Designed for user acquisition.
-
-Includes:
-
--   limited Reel generations,
--   basic AI scripts,
--   basic templates,
--   watermark,
--   limited AI Viral Score,
--   standard export.
-
-Purpose:
-
-**Get users into the product.**
-
-------------------------------------------------------------------------
-
-## CREATOR --- ₹499/month
-
-Designed for individual creators.
-
-Includes:
-
--   higher monthly generation credits,
--   HD export,
--   no watermark,
--   premium voices,
--   advanced captions,
--   AI Viral Score,
--   more templates,
--   creator analytics.
-
-Purpose:
-
-**Convert active creators into paying subscribers.**
-
-------------------------------------------------------------------------
-
-## PRO --- ₹1,499/month
-
-Designed for serious creators and professionals.
-
-Includes:
-
--   significantly higher generation limits,
--   premium AI voices,
--   advanced visual generation,
--   priority rendering,
--   advanced analytics,
--   brand kits,
--   multiple projects,
--   faster generation.
-
-Purpose:
-
-**Capture high-value individual users.**
-
-------------------------------------------------------------------------
-
-## AGENCY --- ₹4,999+/month
-
-Designed for agencies.
-
-Includes:
-
--   multiple brands,
--   team members,
--   client workspaces,
--   brand templates,
--   shared asset libraries,
--   higher generation limits,
--   client approvals,
--   analytics,
--   priority support.
-
-Purpose:
-
-**Generate high recurring revenue from professional customers.**
-
-------------------------------------------------------------------------
-
-# 12. Unit Economics
-
-The business should track the approximate cost of generating one Reel.
-
-A simplified model:
-
-``` text
-CUSTOMER PAYMENT
-       ↓
-Subscription Revenue
-       ↓
- ┌───────────────┐
- │ AI API Costs  │
- ├───────────────┤
- │ GPU/Rendering │
- ├───────────────┤
- │ Storage       │
- ├───────────────┤
- │ Infrastructure│
- └───────────────┘
-       ↓
-Gross Margin
-```
-
-The exact cost depends heavily on the selected AI providers,
-video-generation method, voice model, storage and rendering
-architecture.
-
-NEUROREEL should therefore measure:
-
-``` text
-Cost per Reel
-Revenue per User
-Average Monthly Generations
-Average Revenue per User
-Gross Margin
-Customer Acquisition Cost
-Customer Lifetime Value
-```
-
-A major business objective is:
-
-> **Increase the value of each paid user faster than the AI-generation
-> cost increases.**
-
-------------------------------------------------------------------------
-
-# 13. Additional Revenue Streams
-
-Subscriptions are the main revenue stream, but NEUROREEL can expand into
-several additional revenue channels.
-
-## 13.1 Pay-As-You-Go Credits
-
-Users can purchase extra generation credits.
-
-Example:
-
-``` text
-100 Credits
-₹299
-```
-
-Useful for users who do not want a higher monthly plan.
-
-------------------------------------------------------------------------
-
-## 13.2 Premium AI Voices
-
-Offer premium voice packs.
-
-Examples:
-
--   professional narrator,
--   energetic creator,
--   documentary,
--   cinematic,
--   multilingual voices.
-
-Users can pay extra for premium voice usage.
-
-------------------------------------------------------------------------
-
-## 13.3 Premium Templates
-
-Creators can purchase specialized templates.
-
-Examples:
-
--   finance reels,
--   education reels,
--   product launches,
--   motivational reels,
--   podcast clips,
--   real-estate reels.
-
-------------------------------------------------------------------------
-
-## 13.4 Brand Kits
-
-Businesses can pay to store:
-
--   logos,
--   fonts,
--   brand colors,
--   intro/outro animations,
--   reusable templates.
-
-This increases retention because the platform becomes part of the
-company's workflow.
-
-------------------------------------------------------------------------
-
-## 13.5 Agency Workspaces
-
-Agencies can pay for:
-
--   multiple clients,
--   team accounts,
--   approvals,
--   client portals,
--   shared assets,
--   analytics.
-
-This creates a higher-value B2B revenue stream.
-
-------------------------------------------------------------------------
-
-## 13.6 API / Developer Platform
-
-In the long term, NEUROREEL can expose an API.
-
-Example:
-
-``` text
-POST /generate-reel
-
-{
-  "topic": "AI in education",
-  "duration": 30,
-  "style": "educational",
-  "platform": "instagram"
-}
-```
-
-Other companies could integrate NEUROREEL into:
-
--   marketing platforms,
--   CRM systems,
--   education platforms,
--   ecommerce platforms,
--   social media management tools.
-
-Revenue can come from API usage.
-
-------------------------------------------------------------------------
-
-## 13.7 Enterprise Licensing
-
-Large companies can receive custom deployments with:
-
--   private workspaces,
--   SSO,
--   custom brand controls,
--   compliance features,
--   dedicated infrastructure,
--   enterprise support.
-
-This creates a separate high-value B2B segment.
-
-------------------------------------------------------------------------
-
-# 14. Revenue Flywheel
-
-NEUROREEL can create a strong growth loop:
-
-``` text
-FREE USERS
-     ↓
-Create Reels
-     ↓
-Share Reels
-     ↓
-NEUROREEL Brand Exposure
-     ↓
-New Users
-     ↓
-More Creators
-     ↓
-More Successful Reels
-     ↓
-More Paid Conversions
-     ↓
-More Revenue
-     ↓
-Better AI + Better Product
-     ↓
-Higher Creator Retention
-     ↓
-Growth
-```
-
-The free plan therefore acts as a customer acquisition mechanism.
-
-------------------------------------------------------------------------
-
-# 15. Competitive Advantage
-
-NEUROREEL should not compete only on:
-
-> "We generate videos with AI."
-
-That is becoming commoditized.
-
-Instead, our differentiation is the combination of:
-
-### 1. Full Workflow
-
-Idea → final Reel in one platform.
-
-### 2. Audience-Aware Generation
-
-Content changes based on the target audience.
-
-### 3. Platform-Aware Generation
-
-Different content structures can be optimized for different platforms.
-
-### 4. AI Viral Score
-
-The system evaluates content before publishing.
-
-### 5. Creator Studio
-
-Generation and editing happen inside one environment.
-
-### 6. Brand Consistency
-
-Businesses can maintain consistent visual identity.
-
-### 7. 3D Product Experience
-
-The interface itself creates a memorable premium brand experience.
-
-------------------------------------------------------------------------
-
-# 16. Product Architecture
-
-A production architecture can be organized into:
-
-``` text
-FRONTEND
-React + TypeScript
-        ↓
-API / BACKEND
-        ↓
-AI ORCHESTRATION LAYER
-        ↓
- ┌──────────────┬──────────────┬──────────────┐
- │ LLM          │ Image/Visual │ Voice        │
- │ Provider     │ Provider     │ Provider     │
- └──────────────┴──────────────┴──────────────┘
-        ↓
-VIDEO COMPOSITION / RENDERING
-        ↓
-OBJECT STORAGE
-        ↓
-CDN
-        ↓
-USER
-```
-
-------------------------------------------------------------------------
-
-# 17. Technology Stack
-
-## Frontend
-
--   React 18
--   TypeScript
--   Vite
--   Tailwind CSS
-
-## 3D / Motion
-
--   Three.js
--   React Three Fiber where appropriate
--   Framer Motion
--   CSS 3D transforms
--   WebGL particle effects
-
-## UI
-
--   Glassmorphism
--   Responsive layouts
--   Lucide React icons
--   Custom animation utilities
-
-## Backend / AI Layer
-
-The production implementation can use an API/backend orchestration layer
-responsible for:
-
--   authentication,
--   project management,
--   prompt orchestration,
--   AI provider calls,
--   credit accounting,
--   job queues,
--   video rendering,
--   analytics.
-
-The exact AI providers can be swapped based on cost, quality, licensing
-and latency.
-
-## Storage
-
-Potential production services:
-
--   object storage for generated assets,
--   CDN for delivery,
--   database for projects/users/credits,
--   queue system for long-running video jobs.
-
-------------------------------------------------------------------------
-
-# 18. Frontend Experience
-
-## 18.1 3D Neural Head Hero
-
-File:
-
-`src/components/NeuralHead3D.tsx`
-
-Features:
-
--   floating neural-head presentation,
--   holographic rings,
--   volumetric-style glow,
--   circuit animations,
--   particle effects,
--   mouse parallax,
--   3D perspective.
-
-The visual is the primary brand metaphor:
-
-> **The AI brain that turns ideas into content.**
-
-------------------------------------------------------------------------
-
-## 18.2 Hackathon Demo Showcase
-
-File:
-
-`src/components/HackathonDemoModal.tsx`
-
-One-click demo designed for judges.
-
-Demo input:
-
-``` text
-5 AI Skills Every College Student Should Learn
-```
-
-The system demonstrates:
-
-``` text
-UNDERSTAND
-    ↓
-SCRIPT
-    ↓
-SCENES
-    ↓
-VOICE
-    ↓
-CAPTIONS
-    ↓
-ANALYSIS
-    ↓
-REEL READY
-```
-
-A demo score such as `94/100` can be shown as a **demo value** to
-illustrate the interface. In production, this score should be calculated
-dynamically from actual analysis.
-
-------------------------------------------------------------------------
-
-## 18.3 AI Reel Generator
-
-File:
-
-`src/components/AIReelGenerator.tsx`
-
-Inputs:
-
--   Topic
--   Target Audience
--   Duration
--   Content Style
--   Platform
-
-The generator launches the AI pipeline.
-
-------------------------------------------------------------------------
-
-## 18.4 Generation Pipeline Modal
-
-File:
-
-`src/components/GenerationPipelineModal.tsx`
-
-Shows:
-
-``` text
-Analyzing idea...
-Understanding audience...
-Writing hook...
-Generating script...
-Designing scenes...
-Generating voice...
-Adding captions...
-Rendering Reel...
-```
-
-The goal is to turn a waiting state into a transparent product
-experience.
-
-------------------------------------------------------------------------
-
-## 18.5 Reel Preview
-
-File:
-
-`src/components/ReelPreviewPhone.tsx`
-
-Displays:
-
--   9:16 video,
--   play/pause,
--   audio,
--   scene beats,
--   captions,
--   phone-style presentation.
-
-------------------------------------------------------------------------
-
-## 18.6 AI Analytics
-
-File:
-
-`src/components/AIAnalytics.tsx`
-
-Displays:
-
--   retention visualization,
--   AI quality signals,
--   hook score,
--   audience match,
--   CTA quality,
--   pacing.
-
-Any displayed performance prediction should be clearly labeled as a
-prediction rather than guaranteed future performance.
-
-------------------------------------------------------------------------
-
-# 19. Creator Studio
-
-File:
-
-`src/components/StudioDashboard.tsx`
-
-The Creator Studio is the operational center of the product.
-
-It can contain:
-
-``` text
+```text
 Dashboard
 Create Reel
 My Reels
@@ -1289,67 +750,59 @@ Settings
 
 Dashboard metrics:
 
-``` text
+```text
 Reels Created
 Total Views
 Average AI Score
 Engagement Rate
 ```
 
-Recent Reel library:
+---
 
--   thumbnail,
--   title,
--   duration,
--   platform,
--   score,
--   creation date.
+# 13. Video Timeline
 
-------------------------------------------------------------------------
+The Creator Studio can contain a multi-track editor.
 
-# 20. Video Timeline
-
-The studio can provide a multi-track timeline:
-
-``` text
+```text
 VIDEO
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 VOICE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CAPTIONS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 MUSIC
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SFX
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-This gives creators the option to manually modify AI-generated content
-instead of forcing them to accept the first result.
+Creators can modify AI-generated content instead of accepting the first generated result.
 
-This is important for professional users.
+---
 
-------------------------------------------------------------------------
+# 14. Hackathon Demo Mode
 
-# 21. Hackathon Demo Mode
+Component:
 
-The hackathon experience should be extremely simple.
+```text
+src/components/HackathonDemoModal.tsx
+```
 
-### Step 1
+The hackathon demo should be extremely simple.
 
-Click:
+The judge clicks:
 
-**CREATE DEMO REEL**
+```text
+CREATE DEMO REEL
+```
 
-### Step 2
+The platform automatically loads:
 
-Automatically load:
-
-``` text
+```text
 Topic:
 5 AI Skills Every College Student Should Learn
 
@@ -1363,49 +816,687 @@ Style:
 Viral Educational
 ```
 
-### Step 3
+Then the pipeline runs:
 
-Start generation.
-
-### Step 4
-
-Show:
-
-``` text
+```text
 ✓ Understanding
 ✓ Script Generated
 ✓ Scenes Generated
 ✓ Voice Generated
 ✓ Captions Generated
 ✓ AI Analysis
+✓ Reel Ready
 ```
 
-### Step 5
+Finally:
 
-Display the Reel.
-
-### Step 6
-
-Display:
-
-``` text
+```text
 AI VIRAL SCORE
+
 94 / 100
 ```
 
-### Step 7
+The generated Reel appears in the 3D smartphone preview.
 
-Show the generated Reel inside the 3D phone.
+> **Important:** In a real production implementation, the score should be calculated dynamically. A fixed score such as 94/100 is only suitable for a controlled hackathon demo.
 
-This creates a strong visual demonstration for judges.
+---
 
-------------------------------------------------------------------------
+# 15. Technical Architecture
 
-# 22. Project Structure
+The overall architecture is:
+
+```text
+                    USER
+                      │
+                      ▼
+              ┌───────────────┐
+              │ React Frontend│
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │ Backend / API │
+              └───────┬───────┘
+                      │
+                      ▼
+             AI ORCHESTRATION
+                      │
+       ┌──────────────┼──────────────┐
+       ▼              ▼              ▼
+  LLM / Script    Visual AI      Voice AI
+       │              │              │
+       └──────────────┼──────────────┘
+                      ▼
+             VIDEO COMPOSITION
+                      │
+                      ▼
+               AI ANALYTICS
+                      │
+                      ▼
+                FINAL REEL
+```
+
+---
+
+# 16. Technology Stack
+
+## Frontend
+
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+
+## 3D and Animation
+
+- Three.js
+- React Three Fiber where required
+- Framer Motion
+- CSS 3D transforms
+- WebGL particle effects
+
+## Icons
+
+- Lucide React
+
+## Backend
+
+The production backend handles:
+
+- Authentication
+- AI orchestration
+- User projects
+- Credit management
+- Video generation jobs
+- Rendering
+- Storage
+- Analytics
+
+## Infrastructure
+
+Potential production infrastructure:
+
+- Database
+- Object storage
+- CDN
+- Background job queue
+- AI APIs
+- Video rendering service
+
+The exact AI providers can be changed according to quality, latency, licensing and cost.
+
+---
+
+# 17. Revenue Model
+
+## Main Revenue Model
+
+NEUROREEL uses:
+
+> **Freemium SaaS + Subscription + Usage-Based Credits**
+
+This is the most important part of our business model.
+
+The platform is free to try, but advanced and high-volume generation is paid.
+
+---
+
+## 17.1 Free Plan — ₹0/month
+
+The Free plan is designed to acquire users.
+
+Possible features:
+
+- Limited Reel generations
+- Basic scripts
+- Basic templates
+- Basic AI score
+- Watermarked export
+- Standard processing
+
+### Business Purpose
+
+The free plan reduces the barrier to entry.
+
+Users can experience the product before paying.
+
+---
+
+# 18. Creator Plan — Example ₹499/month
+
+Target:
+
+- Students
+- Individual creators
+- Small influencers
+
+Features:
+
+- More Reel generations
+- HD export
+- No watermark
+- Premium voices
+- Advanced captions
+- AI Viral Score
+- More templates
+
+### Business Purpose
+
+Convert active free users into recurring subscribers.
+
+---
+
+# 19. Pro Plan — Example ₹1,499/month
+
+Target:
+
+- Professional creators
+- Freelancers
+- Coaches
+- Content professionals
+
+Features:
+
+- Higher generation limits
+- Premium AI voices
+- Advanced visual generation
+- Priority rendering
+- Advanced analytics
+- Brand customization
+- More projects
+
+### Business Purpose
+
+Increase average revenue per user.
+
+---
+
+# 20. Agency Plan — Example ₹4,999+/month
+
+Target:
+
+- Marketing agencies
+- Social media agencies
+- Content teams
+- Small businesses
+
+Features:
+
+- Multiple brands
+- Multiple team members
+- Client workspaces
+- Brand kits
+- Shared assets
+- Approvals
+- Higher generation limits
+- Analytics
+- Priority support
+
+### Business Purpose
+
+Generate higher-value B2B recurring revenue.
+
+---
+
+# 21. Usage-Based Credits
+
+AI video generation has variable costs.
+
+Every generated asset can consume resources such as:
+
+- AI model usage
+- Image generation
+- Voice generation
+- Video rendering
+- Storage
+- Bandwidth
+
+Therefore, NEUROREEL uses credits.
 
 Example:
 
-``` text
+```text
+Monthly Plan
+     ↓
+Included Credits
+     ↓
+User Generates Reels
+     ↓
+Credits Consumed
+     ↓
+Credits Finished
+     ↓
+User Can Buy Extra Credits
+```
+
+Example:
+
+```text
+100 Extra Credits
+₹299
+```
+
+This creates a second revenue stream without forcing a user to immediately upgrade their subscription.
+
+---
+
+# 22. Why the Subscription + Credits Model Works
+
+There are two important types of revenue:
+
+### Recurring Revenue
+
+From monthly subscriptions.
+
+```text
+Creator
+Pro
+Agency
+Enterprise
+```
+
+### Usage Revenue
+
+From:
+
+```text
+Extra Credits
+Additional Rendering
+Premium Voices
+Premium AI Features
+```
+
+Therefore:
+
+```text
+FREE USERS
+     ↓
+PAID SUBSCRIPTIONS
+     ↓
+EXTRA CREDITS
+     ↓
+PRO USERS
+     ↓
+AGENCIES
+     ↓
+ENTERPRISE
+```
+
+This allows the company to grow revenue as the user's usage grows.
+
+---
+
+# 23. Additional Revenue Streams
+
+## 23.1 Premium Templates
+
+Users can purchase premium templates for:
+
+- Education
+- Finance
+- Motivation
+- Product launches
+- Real estate
+- Podcast clips
+- Business
+- Personal branding
+
+---
+
+## 23.2 Premium Voice Packs
+
+Offer premium voice styles:
+
+- Professional
+- Cinematic
+- Energetic
+- Documentary
+- Educational
+- Multilingual
+
+---
+
+## 23.3 Brand Kits
+
+Businesses can pay to store:
+
+- Logos
+- Fonts
+- Colors
+- Intro animations
+- Outro animations
+- Brand templates
+
+This increases customer retention.
+
+---
+
+## 23.4 API
+
+In the long term, NEUROREEL can provide an API.
+
+Example:
+
+```http
+POST /generate-reel
+```
+
+Request:
+
+```json
+{
+  "topic": "AI in Education",
+  "duration": 30,
+  "style": "Educational",
+  "platform": "Instagram"
+}
+```
+
+Other businesses can integrate NEUROREEL into their products and pay according to API usage.
+
+---
+
+## 23.5 Enterprise
+
+Enterprise customers can receive:
+
+- Dedicated workspaces
+- SSO
+- Team management
+- Private storage
+- Advanced security
+- Custom branding
+- Dedicated infrastructure
+- Enterprise support
+
+---
+
+# 24. Revenue Example
+
+This is an illustrative example, not a financial forecast.
+
+Suppose:
+
+```text
+10,000 registered users
+```
+
+If:
+
+```text
+10% become paying users
+```
+
+Then:
+
+```text
+1,000 paying users
+```
+
+Assume an average revenue of:
+
+```text
+₹1,000 per paid user per month
+```
+
+Then:
+
+```text
+1,000 × ₹1,000
+
+= ₹10,00,000/month
+```
+
+Annualized:
+
+```text
+₹10,00,000 × 12
+
+= ₹1,20,00,000/year
+```
+
+Actual results depend on:
+
+- Conversion rate
+- Pricing
+- Churn
+- AI generation costs
+- Infrastructure costs
+- Payment fees
+- Customer acquisition cost
+
+---
+
+# 25. Unit Economics
+
+NEUROREEL should monitor:
+
+```text
+Cost Per Reel
+Revenue Per User
+Average Monthly Generations
+Average Revenue Per User
+Gross Margin
+Customer Acquisition Cost
+Customer Lifetime Value
+Churn
+```
+
+The key business objective is:
+
+> **The revenue generated by a customer should be greater than the cost of serving that customer.**
+
+For example:
+
+```text
+Customer Revenue
+      -
+AI Generation Cost
+      -
+Infrastructure Cost
+      -
+Payment Cost
+      =
+Gross Contribution
+```
+
+---
+
+# 26. Business Value
+
+NEUROREEL creates measurable business value in several ways.
+
+## 26.1 Time Saved
+
+A creator can move from:
+
+```text
+Idea → Multiple Tools → Hours of Work
+```
+
+to:
+
+```text
+Idea → NEUROREEL → Generated Reel
+```
+
+---
+
+## 26.2 Lower Production Effort
+
+Users do not need advanced editing skills to create a strong first version.
+
+---
+
+## 26.3 Higher Content Output
+
+If the creation process becomes faster, creators can produce more content.
+
+---
+
+## 26.4 Consistent Branding
+
+Brand kits and reusable templates help businesses maintain consistency.
+
+---
+
+## 26.5 Better Pre-Publish Decisions
+
+AI analysis helps creators identify weaknesses before publishing.
+
+---
+
+# 27. Competitive Advantage
+
+NEUROREEL should not compete only by saying:
+
+> "We generate AI videos."
+
+Instead, our differentiation is:
+
+### 1. End-to-End Workflow
+
+Idea to final Reel.
+
+### 2. Audience-Aware Generation
+
+Content changes according to the target audience.
+
+### 3. Platform-Aware Generation
+
+The system can adapt content for different platforms.
+
+### 4. AI Performance Analysis
+
+Content is analyzed before publishing.
+
+### 5. Creator Studio
+
+AI generation and editing are available in one environment.
+
+### 6. Brand Consistency
+
+Businesses can maintain consistent branding.
+
+### 7. Premium 3D Experience
+
+The product itself has a memorable futuristic identity.
+
+---
+
+# 28. Growth Strategy
+
+The growth flywheel is:
+
+```text
+FREE USERS
+     ↓
+CREATE REELS
+     ↓
+SHARE REELS
+     ↓
+NEW USERS
+     ↓
+MORE CREATORS
+     ↓
+MORE CONTENT
+     ↓
+MORE PAID CONVERSIONS
+     ↓
+MORE REVENUE
+     ↓
+BETTER PRODUCT
+     ↓
+BETTER RETENTION
+     ↓
+GROWTH
+```
+
+---
+
+# 29. Target Customers
+
+## Students
+
+Educational content and personal branding.
+
+## Individual Creators
+
+Frequent social-media content.
+
+## Influencers
+
+High-volume short-form video production.
+
+## Startups
+
+Marketing content without a large production team.
+
+## Small Businesses
+
+Affordable content production.
+
+## Agencies
+
+Multiple clients and multiple brands.
+
+## Enterprise
+
+Large-scale branded content operations.
+
+---
+
+# 30. Future Roadmap
+
+## Phase 1 — MVP
+
+- AI script generation
+- Scene generation
+- Voice generation
+- Captions
+- Basic video rendering
+- 9:16 export
+- AI score
+
+## Phase 2 — Creator Platform
+
+- User accounts
+- Project saving
+- Templates
+- Brand kits
+- Analytics
+
+## Phase 3 — Monetization
+
+- Free plan
+- Creator plan
+- Pro plan
+- Agency plan
+- Credit system
+- Payment gateway
+
+## Phase 4 — Advanced AI
+
+- Personalization
+- Multilingual generation
+- Audience-specific generation
+- Advanced retention prediction
+- A/B testing
+
+## Phase 5 — Business Platform
+
+- Team collaboration
+- Agency workspaces
+- Client approval
+- API
+- Enterprise
+
+---
+
+# 31. Project Structure
+
+```text
 NEUROREEL/
 │
 ├── public/
@@ -1438,90 +1529,115 @@ NEUROREEL/
 └── README.md
 ```
 
-------------------------------------------------------------------------
+---
 
-# 23. Local Development
+# 32. Technology Stack
+
+## Frontend
+
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+
+## 3D and Animation
+
+- Three.js
+- React Three Fiber
+- Framer Motion
+- CSS 3D
+- WebGL
+
+## UI
+
+- Glassmorphism
+- Responsive design
+- Lucide React
+- Custom animations
+
+## Backend
+
+Production backend responsibilities:
+
+- Authentication
+- User management
+- AI orchestration
+- Credit management
+- Job queues
+- Video rendering
+- Storage
+- Analytics
+
+---
+
+# 33. Local Development
 
 ## Requirements
 
 Install:
 
--   Node.js
--   npm
--   Git
+- Node.js
+- npm
+- Git
 
-## Install
+## Install Dependencies
 
-``` bash
+```bash
 npm install --legacy-peer-deps
 ```
 
 ## Start Development Server
 
-``` bash
+```bash
 npm run dev
 ```
 
-The application will run on the local Vite development server.
+## Build Production Version
 
-## Production Build
-
-``` bash
+```bash
 npm run build
 ```
 
 ## Preview Production Build
 
-``` bash
+```bash
 npm run preview
 ```
 
-------------------------------------------------------------------------
+---
 
-# 24. Environment Variables
+# 34. Environment Variables
 
-Production AI integrations should use environment variables.
+Production API keys should never be exposed in frontend code.
 
 Example:
 
-``` env
+```env
 VITE_API_URL=
 AI_PROVIDER_API_KEY=
 VOICE_PROVIDER_API_KEY=
 VIDEO_PROVIDER_API_KEY=
-STORAGE_BUCKET=
 DATABASE_URL=
+STORAGE_BUCKET=
 ```
 
-Never expose secret provider keys in frontend source code.
+Secret keys should be stored server-side in production.
 
-For production, AI API calls should go through a secure
-backend/server-side function.
+---
 
-------------------------------------------------------------------------
+# 35. Deployment
 
-# 25. Production Deployment
-
-NEUROREEL can be deployed using a modern frontend hosting platform such
-as Vercel.
-
-The project contains:
-
-``` text
-vercel.json
-```
-
-for SPA routing and deployment configuration.
+The frontend can be deployed using Vercel.
 
 Typical deployment:
 
-``` bash
+```bash
 npx vercel
 ```
 
 Or:
 
-``` text
+```text
 GitHub
    ↓
 Vercel
@@ -1531,244 +1647,37 @@ Build
 Production
 ```
 
-For production AI generation, long-running rendering should be handled
-asynchronously rather than blocking a browser request.
+For production video generation, long-running tasks should run asynchronously using backend jobs or queues.
 
-------------------------------------------------------------------------
+---
 
-# 26. Future Roadmap
+# 36. Privacy and Responsible AI
 
-## Phase 1 --- MVP
+NEUROREEL should follow responsible AI practices.
 
--   AI script generation
--   Scene generation
--   Voice generation
--   Caption generation
--   Basic video rendering
--   9:16 export
--   AI quality score
+Important areas include:
 
-## Phase 2 --- Creator Platform
+- User data protection
+- Secure API keys
+- Content ownership transparency
+- Consent for uploaded media
+- Responsible voice cloning
+- Copyright-aware asset sourcing
+- Appropriate AI-generated content disclosure
+- Abuse prevention
+- Secure authentication
 
--   User accounts
--   Project saving
--   Templates
--   Brand kits
--   Analytics
--   Creator dashboard
+Unauthorized impersonation through voice or likeness generation should not be supported.
 
-## Phase 3 --- Monetization
+---
 
--   Free plan
--   Creator plan
--   Pro plan
--   Agency plan
--   Credit system
--   Payment gateway
-
-## Phase 4 --- AI Intelligence
-
--   Personalization
--   Audience-specific generation
--   Multilingual content
--   Advanced retention prediction
--   Automatic A/B testing
-
-## Phase 5 --- Business Platform
-
--   Agency workspaces
--   Team collaboration
--   Client approval
--   API
--   Enterprise plans
-
-------------------------------------------------------------------------
-
-# 27. Business Growth Strategy
-
-The growth strategy is:
-
-``` text
-FREE
- ↓
-CREATE
- ↓
-SHARE
- ↓
-DISCOVER
- ↓
-CONVERT
- ↓
-SUBSCRIBE
- ↓
-CREATE MORE
- ↓
-RETAIN
-```
-
-## Acquisition
-
-Users can be acquired through:
-
--   free Reel generations,
--   referral programs,
--   creator communities,
--   college communities,
--   startup communities,
--   social media,
--   SEO content,
--   template marketplaces.
-
-## Conversion
-
-Free users convert when they need:
-
--   more generations,
--   no watermark,
--   higher quality,
--   faster rendering,
--   premium voices,
--   advanced analytics,
--   brand kits.
-
-## Retention
-
-Retention is driven by:
-
--   saved projects,
--   brand assets,
--   content history,
--   analytics history,
--   reusable templates,
--   scheduled content workflows.
-
-The more of a creator's workflow NEUROREEL stores, the harder it becomes
-to replace the product.
-
-------------------------------------------------------------------------
-
-# 28. Privacy and Responsible AI
-
-NEUROREEL should be designed with responsible AI principles.
-
-Important areas:
-
--   user data protection,
--   secure API keys,
--   content ownership transparency,
--   consent for uploaded media,
--   responsible voice cloning,
--   copyright-aware asset sourcing,
--   transparent AI-generated labels where appropriate,
--   abuse prevention,
--   secure account management.
-
-Users should not be allowed to impersonate real people through
-unauthorized voice or likeness generation.
-
-------------------------------------------------------------------------
-
-# 29. Why NEUROREEL Can Scale
-
-The product has a strong SaaS scaling model because the same platform
-can serve multiple customer segments.
-
-``` text
-STUDENTS
-   ↓
-CREATORS
-   ↓
-PROFESSIONALS
-   ↓
-SMALL BUSINESSES
-   ↓
-AGENCIES
-   ↓
-ENTERPRISE
-```
-
-The underlying infrastructure remains largely the same while:
-
--   usage limits increase,
--   collaboration features increase,
--   analytics become more advanced,
--   brand controls become stronger,
--   support becomes more specialized.
-
-This creates an expansion path from low-cost individual users to
-high-value B2B customers.
-
-------------------------------------------------------------------------
-
-# 30. The Most Important Business Insight
-
-NEUROREEL should **not** sell "AI generations."
-
-It should sell:
-
-> **Time saved + content produced + workflow simplified.**
-
-For example, if a creator normally spends several hours creating a Reel
-and NEUROREEL reduces the workflow to a few minutes plus optional
-editing, the creator is receiving a measurable productivity benefit.
-
-That productivity benefit is what justifies subscription pricing.
-
-------------------------------------------------------------------------
-
-# 31. Revenue Example
-
-A simplified hypothetical scenario:
-
-``` text
-1,000 FREE USERS
-        ↓
-10% CONVERSION
-        ↓
-100 PAYING USERS
-```
-
-Suppose the average paid user generates approximately:
-
-``` text
-₹1,000/month
-```
-
-Then:
-
-``` text
-100 × ₹1,000
-= ₹1,00,000 monthly recurring revenue
-```
-
-If the platform grows to:
-
-``` text
-10,000 paying users
-```
-
-at the same average revenue:
-
-``` text
-10,000 × ₹1,000
-= ₹1,00,00,000/month
-```
-
-These are **illustrative scenarios, not financial forecasts**. Actual
-revenue depends on pricing, conversion rate, retention, generation
-costs, taxes, payment fees and customer acquisition cost.
-
-------------------------------------------------------------------------
-
-# 32. Business KPIs
-
-The company should track:
+# 37. Key Business KPIs
 
 ## User Metrics
 
-``` text
-DAU
-MAU
+```text
+Daily Active Users
+Monthly Active Users
 Signups
 Activation Rate
 Retention
@@ -1777,16 +1686,16 @@ Churn
 
 ## Content Metrics
 
-``` text
+```text
 Reels Generated
 Reels Exported
 Reels Published
-Average Reels/User
+Average Reels Per User
 ```
 
 ## Revenue Metrics
 
-``` text
+```text
 MRR
 ARR
 ARPU
@@ -1799,28 +1708,27 @@ Gross Margin
 
 ## AI Metrics
 
-``` text
+```text
 Average Generation Cost
+Generation Time
 Generation Failure Rate
-Average Generation Time
-AI Score Accuracy
 Provider Cost
+Rendering Cost
 ```
 
-------------------------------------------------------------------------
+---
 
-# 33. Final Product Vision
+# 38. Long-Term Vision
 
-NEUROREEL begins as an AI Reel generator.
+NEUROREEL starts as an AI Reel generator.
 
-The long-term vision is much larger:
+The long-term vision is:
 
-> **A complete AI content operating system for creators and
-> businesses.**
+> **An AI Content Operating System for creators and businesses.**
 
-The future platform can handle:
+Future workflow:
 
-``` text
+```text
 IDEA
  ↓
 CONTENT STRATEGY
@@ -1842,75 +1750,80 @@ LEARN
 GENERATE BETTER CONTENT
 ```
 
-The system becomes smarter as it learns what type of content a
-particular creator or brand prefers.
+The system can eventually learn each creator's preferred:
 
-------------------------------------------------------------------------
+- Style
+- Audience
+- Tone
+- Brand
+- Content format
 
-# 34. One-Minute Hackathon Pitch
+---
 
-> **"Creating a Reel today means switching between multiple tools ---
-> one for scripts, one for visuals, another for voiceovers, another for
-> editing and another for analytics. NEUROREEL brings this entire
-> workflow into one AI-powered platform.**
->
-> **A creator simply enters an idea, chooses their audience, duration
-> and style, and NEUROREEL understands the idea, writes the script,
-> breaks it into scenes, generates the voice and visuals, adds
-> synchronized captions, renders a 9:16 Reel and evaluates the content
-> with an AI performance score.**
->
-> **Our business model is subscription plus usage-based credits. Free
-> users can try the platform, while creators pay for higher generation
-> limits, premium AI features and watermark-free exports. Professional
-> creators and agencies can move to higher-value plans with brand kits,
-> collaboration and analytics.**
->
-> **Our vision is not just to generate videos. Our vision is to build an
-> AI content operating system that helps creators go from thought to
-> published content in minutes."**
+# 39. Why NEUROREEL Is a Business
 
-------------------------------------------------------------------------
+NEUROREEL is not only a technology project.
 
-# 35. Final Summary
+It solves a real business problem:
 
-NEUROREEL combines:
+> **Producing high-quality short-form content requires time, skills and multiple tools.**
 
-``` text
-GENERATIVE AI
-      +
-VIDEO AUTOMATION
-      +
-VOICE SYNTHESIS
-      +
-SMART CAPTIONS
-      +
-3D EXPERIENCE
-      +
-CONTENT ANALYTICS
-      +
-SAAS MONETIZATION
+Our platform converts this complicated workflow into one product.
+
+The user receives:
+
+```text
+TIME SAVED
++
+LOWER PRODUCTION EFFORT
++
+MORE CONTENT
++
+BETTER WORKFLOW
++
+CONTENT INSIGHTS
 ```
 
-The core value proposition:
+And NEUROREEL receives revenue through:
 
-> **Think it. Generate it. Reel it.**
+```text
+SUBSCRIPTIONS
++
+EXTRA CREDITS
++
+PREMIUM FEATURES
++
+AGENCY PLANS
++
+ENTERPRISE
++
+API USAGE
+```
 
-The core revenue model:
+---
 
-> **Freemium → Subscription → Usage Credits → Pro → Agency →
-> Enterprise/API**
+# 40. One-Minute Business Pitch
 
-The long-term vision:
+> NEUROREEL is an AI-powered short-form video creation platform that transforms a simple idea into a complete Reel.
+>
+> Our main revenue model is freemium SaaS combined with usage-based credits. Users can start for free with limited generations. As they need more content, they can upgrade to Creator, Pro or Agency subscriptions. Because AI video generation has variable costs, users can also purchase additional credits when they exceed their plan limits.
+>
+> For businesses and agencies, we provide higher-value features such as multiple workspaces, brand kits, collaboration, analytics and higher generation limits. In the future, we can also monetize through enterprise licensing and API usage.
+>
+> Our business value is measurable: we reduce content production time, reduce the need for multiple tools, increase content output and help creators make better pre-publish decisions.
+>
+> Our vision is to grow from an AI Reel generator into a complete AI Content Operating System.
 
-> **From AI Reel Generator to AI Content Operating System.**
+---
 
-------------------------------------------------------------------------
+# 41. Final Pitch
 
-## ⭐ NEUROREEL
-
-**Think it. Generate it. Reel it.**
-
-**From one idea to a complete Reel --- powered by AI.**
-#   N E U R O R E E L  
- 
+> **NEUROREEL — Think it. Generate it. Reel it.**
+>
+> One idea.
+>
+> One AI platform.
+>
+> A complete Reel.
+>
+> **From thought to published content in minutes.**
